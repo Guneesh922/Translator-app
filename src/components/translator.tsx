@@ -111,7 +111,6 @@ export default function Translator() {
       toast({ title: "Translation Error", description: errorMsg, variant: "destructive" });
       return;
     }
-
     startTranslateTransition(async () => {
       setOutputText('');
       setError(null);

@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full max-w-4xl space-y-8">
         <header className="text-center">
           <h1 className="text-5xl font-bold text-foreground tracking-tight">
-            LinguaLink
+            Lingua-Link
           </h1>
           <p className="text-muted-foreground mt-3 text-lg max-w-2xl mx-auto">
             Break down language barriers with AI-powered translation. Instantly detect and translate text between numerous languages.
