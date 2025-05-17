@@ -45,7 +45,9 @@ const allLanguages = [
   { value: 'hu', label: 'Hungarian' },
   { value: 'ro', label: 'Romanian' },
   { value: 'th', label: 'Thai' },
-].sort((a, b) => a.label.localeCompare(b.label));
+].filter((lang, index, self) => 
+  index === self.findIndex((l) => l.value === lang.value && l.label === lang.label)
+).sort((a, b) => a.label.localeCompare(b.label));
 
 
 export default function Translator() {
